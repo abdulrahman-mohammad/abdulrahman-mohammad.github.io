@@ -163,13 +163,6 @@ section {
 /* Section one done */
 
 
-
-
-
-
-
-
-
 .info {
     text-align: center;
 }
@@ -231,16 +224,16 @@ section {
 
 
 .ul-skills-category{
-    /* list-style-type: none; Remove bullets */
-    column-count: 2; /* Create two columns */
-    column-gap: 20px; /* Add space between columns */
-    padding: 0; /* Remove default padding */
 
-    margin: 0; /* Remove default margin */
+    column-count: 2;
+    column-gap: 20px; 
+    padding: 0; 
+
+    margin: 0; 
 }
 
 li {
-    margin: 0px 0; /* Add spacing between items */
+    margin: 0px 0; 
     
 }
 
@@ -273,6 +266,8 @@ li {
 .contact .info h3 {
     color: #000;
 }
+
+
 
 .contact .info p {
     font-size: 1.5em;
@@ -307,12 +302,15 @@ li {
     padding: 0 12px 0 0;
 }
 
-
-
-/* I have to study this more */
-
 .fa-location-dot {
     color: #0741e3;
+}
+
+.contact-card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
 }
 
 @media (max-width:1023px){
